@@ -1,9 +1,3 @@
-#include <iostream>
-#include <vector>
-
-using std::vector;
-using std::cout;
-
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {

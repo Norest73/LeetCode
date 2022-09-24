@@ -1,5 +1,4 @@
 int removeDuplicates(int* nums, int numsSize) {
-
 	if (numsSize == 1) return 1;
 	
 	size_t cnt = 0;

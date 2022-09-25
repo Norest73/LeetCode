@@ -6,7 +6,6 @@ public:
         while (nums[idx] < target) {
             if (idx == nums.size()-1)
                 return nums.size();
-
             idx++;
         }
         

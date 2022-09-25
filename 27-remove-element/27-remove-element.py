@@ -7,5 +7,4 @@ class Solution:
                 del nums[i-cnt]
                 cnt += 1
                 
-        print(nums)
         return len(nums)

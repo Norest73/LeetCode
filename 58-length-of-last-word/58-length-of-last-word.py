@@ -3,6 +3,10 @@ class Solution:
         
         while (s[-1] == " "):
             s = s[:-1]
+        
+        cnt = 0
+        while ( len(s) > 0 and s[-1] != ' ' ):
+            s = s[:-1]
+            cnt += 1
 
-        word = s.split(" ")[-1]
-        return len(word)
+        return cnt

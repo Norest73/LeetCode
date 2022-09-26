@@ -7,6 +7,7 @@ public:
         }
 
         size_t cnt = 0;
+        
         while (!(s.empty()) && (s.back() != ' ')) {
             s.pop_back();
             cnt++;

@@ -10,7 +10,6 @@ class Solution:
             sum = 0
             for d in digits:
                 sum = sum*10 + d
-
             sum += 1
 
             res = []

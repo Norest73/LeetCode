@@ -4,7 +4,6 @@ int mySqrt(int x){
     long long res = 0;
 
     while (left <= right) {
-        
         long long mid = (left + right) / 2;
         if (mid * mid == x)
             return mid;

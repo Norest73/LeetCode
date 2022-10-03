@@ -13,7 +13,6 @@ public:
             
             if (mid * mid == x)
                 return mid;
-
             else if (mid * mid < x) {
                 res = mid;
                 left = mid + 1;

@@ -6,6 +6,7 @@ class Solution:
         
         cnt = 2
         res = [1, 1, 2]
+        
         while cnt < n:
             cnt += 1
             res[0], res[1] = res[1], res[2]

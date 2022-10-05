@@ -5,7 +5,6 @@ int climbStairs(int n) {
 
     int cnt = 2;
     int res[3] = { 1, 1, 2 };
-
     while (cnt < n) {
         cnt++;
         res[0] = res[1], res[1] = res[2];

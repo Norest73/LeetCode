@@ -17,6 +17,7 @@ public:
         
         ListNode* n = head;
         while (n->next != nullptr) {
+            
             if (n->val == n->next->val)
                 n->next = n->next->next;
             else

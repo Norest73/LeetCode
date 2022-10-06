@@ -18,4 +18,5 @@ class Solution:
                 n.next = n.next.next        
             else:
                 n = n.next       
+                
         return head

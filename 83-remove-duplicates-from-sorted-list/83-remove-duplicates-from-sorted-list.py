@@ -13,7 +13,6 @@ class Solution:
             return head
         
         n = head
-        
         while(n.next):
             if n.val == n.next.val:
                 n.next = n.next.next        

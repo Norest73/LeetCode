@@ -28,7 +28,6 @@ void recursive(struct TreeNode* root, int** res) {
     }
 }
 
-// Note: The returned array must be malloced, assume caller calls free()
 int* inorderTraversal(struct TreeNode* root, int* returnSize) {
 
     *returnSize = sizeCnt(root);

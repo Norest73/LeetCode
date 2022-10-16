@@ -1,10 +1,9 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
+        
         map<int, int> n_dict;
-
         for (int i = 0; i < nums.size(); i++) {
-
             if (n_dict.find(nums[i]) != n_dict.end())
                 n_dict[nums[i]]++;
             else

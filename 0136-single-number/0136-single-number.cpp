@@ -13,7 +13,6 @@ public:
         for (auto i = n_dict.begin(); i != n_dict.end(); i++) 
             if (i->second == 1)
                 return i->first;
-        
         return 0;
     }
 };

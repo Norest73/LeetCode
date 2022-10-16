@@ -1,11 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <map>
-
-using std::vector;
-using std::map;
-using std::cout;
-
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
